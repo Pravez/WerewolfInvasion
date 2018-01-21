@@ -88,15 +88,10 @@ public class LivingCreature : MonoBehaviour
     void StopMoving()
     {
         Moving = false;
-        if (IsPeasant())
-            animation.Play("Idle");
     }
 
     public void MoveCreature()
     {
-        if (IsPeasant())
-            animation.Play("Walk");
-
         switch (Behavior)
         {
             case 0:

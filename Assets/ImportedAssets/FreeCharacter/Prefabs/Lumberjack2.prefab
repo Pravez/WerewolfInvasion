@@ -1784,7 +1784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Agent: {fileID: 0}
-  Behavior: 0
+  Behavior: 2
   CurrentChunk: {fileID: 0}
   Target: {fileID: 0}
   Destination: {x: 0, y: 0, z: 0}

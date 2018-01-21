@@ -210,7 +210,7 @@ public class Chunk : MonoBehaviour
 
         InstantiateRandomly(GameManager.Instance.AssetManager.GetPeasant(), peasants / World.WorldTotalSize);
         InstantiateRandomly(GameManager.Instance.AssetManager.GetArmedPeasant(), armed / World.WorldTotalSize);
-        InstantiateRandomly(GameManager.Instance.AssetManager.GetWerewolf(), werewolves / World.WorldTotalSize);
+        InstantiateRandomly(WereWolf, werewolves / World.WorldTotalSize);
     }
 
     private void InstantiateRandomly(GameObject obj, int quantity)
